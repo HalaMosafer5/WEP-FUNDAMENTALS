@@ -1,0 +1,11 @@
+INSERT INTO employees (name,salary) VALUES ('John Doe', 6000);
+
+
+SELECT first_name
+FROM users
+WHERE id = 2;
+
+UPDATE employees SET salary = 6500 WHERE name = 'Ahmad';
+
+DELETE FROM employees WHERE name = 'Jana';
+

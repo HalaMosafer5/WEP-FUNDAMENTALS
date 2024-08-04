@@ -1,0 +1,41 @@
+body {
+    background-color: #d3d3d3;
+    font-family: Arial, sans-serif;
+  }
+  
+  .container {
+    text-align: center;
+    margin: 40px auto;
+  }
+  
+  .search-button {
+    background-color: #4CAF50; /* Green */
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+    border-radius: 5px;
+  }
+  
+  .create-account-button {
+    background-color: #008CBA; /* Blue */
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+    border-radius: 5px;
+  }
+  
+  .search-button:hover, .create-account-button:hover {
+    opacity: 0.8;
+  }
